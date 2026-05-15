@@ -68,7 +68,11 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 }
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000']
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://mukeshworks-3ugi.vercel.app',
+]
 CORS_ALLOW_CREDENTIALS = True
 
 LANGUAGE_CODE = 'en-us'
