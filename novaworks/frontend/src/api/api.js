@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE = 'http://127.0.0.1:8000/api'
+const BASE = 'https://mukeshworks-production.up.railway.app/api'
 
 const getToken = () => localStorage.getItem('access')
 
